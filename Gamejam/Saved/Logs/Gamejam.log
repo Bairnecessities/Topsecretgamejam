@@ -3212,3 +3212,1218 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.14-04.15.20:377][290]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework Validating asset
 [2026.02.14-04.15.20:377][290]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg Validating asset
 [2026.02.14-04.15.20:377][290]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg Validating asset
+[2026.02.14-04.16.07:102][888]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.16.07:115][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.16.07:142][888]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.16.07:144][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2026.02.14-04.16.07:144][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001631s)
+[2026.02.14-04.16.07:175][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.02.14-04.16.07:176][888]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.16.07:178][888]LogPlayLevel: PIE: World Init took: (0.001978s)
+[2026.02.14-04.16.07:179][888]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.16.07:179][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.16.07:179][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.16.07:179][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.16.07:179][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.16.07:179][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.16.07:182][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.16.07:211][888]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.16.07:211][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.16.07:211][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.16.07:211][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.16.07:212][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2026.02.14-04.16.07:212][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=33
+[2026.02.14-04.16.07:215][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2026.02.14-04.16.07:215][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2026.02.14-04.16.07:215][888]LogInit: FAudioDevice initialized with ID 33.
+[2026.02.14-04.16.07:215][888]LogAudio: Display: Audio Device (ID: 33) registered with world 'Level1_Rework'.
+[2026.02.14-04.16.07:215][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2026.02.14-04.16.07:220][888]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.16.07:225][888]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.16.07
+[2026.02.14-04.16.07:225][888]LogWorld: Bringing up level for play took: 0.004648
+[2026.02.14-04.16.07:229][888]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.02.14-04.16.07:234][888]PIE: Server logged in
+[2026.02.14-04.16.07:236][888]PIE: Play in editor total start time 0.121 seconds.
+[2026.02.14-04.16.20:703][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.16.20:703][487]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.16.20:704][487]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.16.20:704][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.16.20:706][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.16.20:712][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.16.20:737][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.16.20:737][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2026.02.14-04.16.20:737][487]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=4
+[2026.02.14-04.16.20:740][487]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
+[2026.02.14-04.16.20:748][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.14-04.16.20:787][488]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.02.14-04.16.58:978][876]Cmd: TRANSACTION UNDO
+[2026.02.14-04.16.58:979][876]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.17.20:110][255]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.17.20:123][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.17.20:123][255]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.17.20:125][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001428s)
+[2026.02.14-04.17.20:125][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001467s)
+[2026.02.14-04.17.20:153][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.02.14-04.17.20:155][255]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.17.20:157][255]LogPlayLevel: PIE: World Init took: (0.001997s)
+[2026.02.14-04.17.20:158][255]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.17.20:158][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.17.20:158][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.17.20:158][255]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.17.20:158][255]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.17.20:158][255]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.17.20:161][255]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.17.20:195][255]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.17.20:195][255]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.17.20:195][255]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.17.20:195][255]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.17.20:196][255]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.02.14-04.17.20:196][255]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=34
+[2026.02.14-04.17.20:199][255]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.02.14-04.17.20:199][255]LogInit: FAudioDevice initialized with ID 34.
+[2026.02.14-04.17.20:199][255]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.02.14-04.17.20:199][255]LogAudio: Display: Audio Device (ID: 34) registered with world 'Level1_Rework'.
+[2026.02.14-04.17.20:199][255]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.02.14-04.17.20:204][255]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.17.20:208][255]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.17.20
+[2026.02.14-04.17.20:209][255]LogWorld: Bringing up level for play took: 0.004668
+[2026.02.14-04.17.20:212][255]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2026.02.14-04.17.20:217][255]PIE: Server logged in
+[2026.02.14-04.17.20:219][255]PIE: Play in editor total start time 0.096 seconds.
+[2026.02.14-04.18.18:632][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.18.18:633][240]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.18.18:633][240]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.18.18:633][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.18.18:635][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.18.18:641][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.18.18:666][240]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.18.18:667][240]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.02.14-04.18.18:667][240]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.02.14-04.18.18:669][240]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.02.14-04.18.18:673][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.18.18:677][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.02.14-04.18.18:722][241]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2026.02.14-04.18.41:370][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.18.41:382][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.18.41:382][877]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.18.41:384][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001436s)
+[2026.02.14-04.18.41:384][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001479s)
+[2026.02.14-04.18.41:412][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.02.14-04.18.41:413][877]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.18.41:415][877]LogPlayLevel: PIE: World Init took: (0.001942s)
+[2026.02.14-04.18.41:416][877]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.18.41:416][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.18.41:416][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.18.41:416][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.18.41:416][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.18.41:416][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.18.41:419][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.18.41:449][877]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.18.41:449][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.18.41:449][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.18.41:449][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.18.41:449][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2026.02.14-04.18.41:449][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=35
+[2026.02.14-04.18.41:453][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2026.02.14-04.18.41:453][877]LogInit: FAudioDevice initialized with ID 35.
+[2026.02.14-04.18.41:453][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2026.02.14-04.18.41:453][877]LogAudio: Display: Audio Device (ID: 35) registered with world 'Level1_Rework'.
+[2026.02.14-04.18.41:453][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2026.02.14-04.18.41:457][877]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.18.41:462][877]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.18.41
+[2026.02.14-04.18.41:462][877]LogWorld: Bringing up level for play took: 0.004733
+[2026.02.14-04.18.41:465][877]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.02.14-04.18.41:470][877]PIE: Server logged in
+[2026.02.14-04.18.41:473][877]PIE: Play in editor total start time 0.09 seconds.
+[2026.02.14-04.19.57:318][848]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5411.721680
+[2026.02.14-04.19.57:443][863]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.19.57:443][863]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5411.838867, Update Interval: 327.779785
+[2026.02.14-04.21.36:750][200]LogInterchangeEngine: [Pending] Importing
+[2026.02.14-04.21.36:750][200]LogInterchangeEngine: Display: Interchange start importing source [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.21.36:841][203]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.02.14-04.21.36:868][204]LogTexture: Display: Building textures: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.T_bp_assets_rework (BGRA8, 448x1109 x1x1x1) (Required Memory Estimate: 18.057358 MB), EncodeSpeed: Fast
+[2026.02.14-04.21.36:902][204]LogInterchangeEngine: Display: Interchange import completed [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.21.36:902][204]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.02.14-04.21.36:902][204]LogInterchangeEngine: [Success] Import Done
+[2026.02.14-04.21.48:794][246]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.21.48:794][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.21.48:849][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.02.14-04.21.51:284][425]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg.TM_Level1_rework_bg
+[2026.02.14-04.21.51:285][425]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.02.14-04.22.01:495][175]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.01:495][175]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.02:360][217]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.02:360][217]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:016][269]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:016][269]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:215][282]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:215][282]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:403][294]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:403][294]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:565][304]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:565][304]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:739][315]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:739][315]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.03:899][325]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.03:899][325]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.04:075][336]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.04:075][336]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.04:248][347]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.04:248][347]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.04:411][357]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.04:411][357]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.04:924][396]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.04:924][396]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.22.05:364][429]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.05:364][429]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.22.06:302][483]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.06:302][483]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.22.06:675][512]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.06:675][512]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.22.21:759][743]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.21:759][743]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.22.51:765][145]Cmd: TRANSACTION UNDO
+[2026.02.14-04.22.51:765][145]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.23.37:822][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.23.37:822][234]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.23.37:823][234]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.23.37:823][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.23.37:825][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.23.37:831][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.23.37:857][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.23.37:857][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2026.02.14-04.23.37:857][234]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2026.02.14-04.23.37:860][234]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2026.02.14-04.23.37:870][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.02.14-04.23.37:919][235]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.02.14-04.24.40:840][669]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.24.40:853][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.24.40:892][669]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.24.40:893][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001472s)
+[2026.02.14-04.24.40:893][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001518s)
+[2026.02.14-04.24.40:919][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.02.14-04.24.40:921][669]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.24.40:924][669]LogPlayLevel: PIE: World Init took: (0.001955s)
+[2026.02.14-04.24.40:925][669]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.24.40:925][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.24.40:925][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.24.40:925][669]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.24.40:925][669]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.24.40:925][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.24.40:928][669]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.24.40:958][669]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.24.40:958][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.24.40:958][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.24.40:958][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.24.40:959][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2026.02.14-04.24.40:959][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=36
+[2026.02.14-04.24.40:962][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2026.02.14-04.24.40:962][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2026.02.14-04.24.40:962][669]LogInit: FAudioDevice initialized with ID 36.
+[2026.02.14-04.24.40:962][669]LogAudio: Display: Audio Device (ID: 36) registered with world 'Level1_Rework'.
+[2026.02.14-04.24.40:962][669]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2026.02.14-04.24.40:967][669]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.24.40:972][669]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.24.40
+[2026.02.14-04.24.40:972][669]LogWorld: Bringing up level for play took: 0.004732
+[2026.02.14-04.24.40:976][669]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.02.14-04.24.40:980][669]PIE: Server logged in
+[2026.02.14-04.24.40:983][669]PIE: Play in editor total start time 0.13 seconds.
+[2026.02.14-04.24.43:672][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.24.43:672][979]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.24.43:673][979]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.24.43:673][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.24.43:674][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.24.43:680][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.24.43:708][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.24.43:708][979]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2026.02.14-04.24.43:708][979]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=4
+[2026.02.14-04.24.43:711][979]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=2
+[2026.02.14-04.24.43:716][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.24.43:719][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.02.14-04.24.43:753][980]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.02.14-04.24.46:511][292]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.46:511][292]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.46:874][305]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.46:874][305]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:023][309]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:023][309]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:183][322]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:183][322]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:335][334]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:335][334]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:487][346]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:487][346]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:611][355]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:611][355]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:781][369]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:781][369]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.47:940][382]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.47:940][382]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.48:085][393]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.48:085][393]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.48:805][466]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.48:805][466]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.48:979][480]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.48:979][480]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:143][493]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:143][493]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:308][507]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:308][507]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:477][521]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:477][521]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:635][535]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:635][535]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:798][548]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:798][548]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.49:958][561]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.49:959][561]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.50:128][575]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.50:128][575]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.24.50:292][580]Cmd: TRANSACTION UNDO
+[2026.02.14-04.24.50:292][580]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.25.10:932][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.25.10:946][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.25.10:946][909]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.25.10:947][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2026.02.14-04.25.10:947][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001526s)
+[2026.02.14-04.25.10:974][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.02.14-04.25.10:976][909]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.25.10:978][909]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2026.02.14-04.25.10:979][909]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.25.10:979][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.25.10:979][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.25.10:979][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.25.10:979][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.25.10:979][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.25.10:982][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.25.11:010][909]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.25.11:010][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.25.11:010][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.25.11:010][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.25.11:010][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2026.02.14-04.25.11:010][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=37
+[2026.02.14-04.25.11:014][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2026.02.14-04.25.11:014][909]LogInit: FAudioDevice initialized with ID 37.
+[2026.02.14-04.25.11:014][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2026.02.14-04.25.11:014][909]LogAudio: Display: Audio Device (ID: 37) registered with world 'Level1_Rework'.
+[2026.02.14-04.25.11:014][909]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2026.02.14-04.25.11:018][909]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.25.11:023][909]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.25.11
+[2026.02.14-04.25.11:024][909]LogWorld: Bringing up level for play took: 0.004770
+[2026.02.14-04.25.11:027][909]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.02.14-04.25.11:031][909]PIE: Server logged in
+[2026.02.14-04.25.11:034][909]PIE: Play in editor total start time 0.088 seconds.
+[2026.02.14-04.26.07:330][639]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5781.722656
+[2026.02.14-04.26.07:455][654]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.26.07:455][654]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5781.838379, Update Interval: 311.644043
+[2026.02.14-04.26.56:751][155]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.26.56:751][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.26.56:798][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.02.14-04.26.59:831][424]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg.TM_Level1_rework_bg
+[2026.02.14-04.26.59:831][424]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.02.14-04.28.30:767][503]Cmd: SELECT NONE
+[2026.02.14-04.28.32:576][720]Cmd: SELECT NONE
+[2026.02.14-04.28.34:642][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.28.34:642][963]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.28.34:643][963]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.28.34:643][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.28.34:645][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.28.34:652][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.28.34:676][963]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.28.34:677][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2026.02.14-04.28.34:677][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=4
+[2026.02.14-04.28.34:680][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=2
+[2026.02.14-04.28.34:686][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.28.34:689][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.02.14-04.28.34:736][964]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2026.02.14-04.28.50:432][628]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.28.50:446][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.28.50:446][628]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.28.50:447][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001419s)
+[2026.02.14-04.28.50:447][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001457s)
+[2026.02.14-04.28.50:472][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.02.14-04.28.50:475][628]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.28.50:476][628]LogPlayLevel: PIE: World Init took: (0.001826s)
+[2026.02.14-04.28.50:477][628]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.28.50:477][628]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.28.50:477][628]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.28.50:477][628]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.28.50:477][628]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.28.50:477][628]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.28.50:481][628]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.28.50:510][628]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.28.50:510][628]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.28.50:510][628]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.28.50:510][628]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.28.50:511][628]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.02.14-04.28.50:511][628]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=38
+[2026.02.14-04.28.50:515][628]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.02.14-04.28.50:515][628]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.02.14-04.28.50:515][628]LogInit: FAudioDevice initialized with ID 38.
+[2026.02.14-04.28.50:515][628]LogAudio: Display: Audio Device (ID: 38) registered with world 'Level1_Rework'.
+[2026.02.14-04.28.50:515][628]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.02.14-04.28.50:519][628]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.28.50:523][628]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.28.50
+[2026.02.14-04.28.50:524][628]LogWorld: Bringing up level for play took: 0.004531
+[2026.02.14-04.28.50:528][628]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2026.02.14-04.28.50:532][628]PIE: Server logged in
+[2026.02.14-04.28.50:535][628]PIE: Play in editor total start time 0.089 seconds.
+[2026.02.14-04.29.08:313][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.29.08:313][744]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.29.08:313][744]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.29.08:313][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.29.08:315][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.29.08:321][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.29.08:347][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.29.08:347][744]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.02.14-04.29.08:347][744]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=4
+[2026.02.14-04.29.08:350][744]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=2
+[2026.02.14-04.29.08:358][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.02.14-04.29.08:450][745]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2026.02.14-04.29.13:801][330]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-04.29.14:859][443]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.29.14:872][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.29.14:872][443]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.29.14:874][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001371s)
+[2026.02.14-04.29.14:874][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001407s)
+[2026.02.14-04.29.14:900][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.02.14-04.29.14:903][443]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.29.14:904][443]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2026.02.14-04.29.14:905][443]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.29.14:905][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.29.14:905][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.29.14:905][443]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.29.14:905][443]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.29.14:905][443]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.29.14:908][443]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.29.14:935][443]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.29.14:936][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.29.14:936][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.29.14:936][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.29.14:936][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2026.02.14-04.29.14:936][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=39
+[2026.02.14-04.29.14:940][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2026.02.14-04.29.14:940][443]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2026.02.14-04.29.14:940][443]LogInit: FAudioDevice initialized with ID 39.
+[2026.02.14-04.29.14:940][443]LogAudio: Display: Audio Device (ID: 39) registered with world 'Level1_Rework'.
+[2026.02.14-04.29.14:940][443]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2026.02.14-04.29.14:944][443]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.29.14:949][443]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.29.14
+[2026.02.14-04.29.14:949][443]LogWorld: Bringing up level for play took: 0.004527
+[2026.02.14-04.29.14:953][443]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2026.02.14-04.29.14:957][443]PIE: Server logged in
+[2026.02.14-04.29.14:960][443]PIE: Play in editor total start time 0.088 seconds.
+[2026.02.14-04.30.36:195][818]Cmd: TRANSACTION UNDO
+[2026.02.14-04.30.36:195][818]LogEditorTransaction: Undo Edit Map Width
+[2026.02.14-04.30.45:631][791]LogBlueprintUserMessages: [BP_GalvoZD_C_0] da fuck
+[2026.02.14-04.31.55:245][122]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6129.634766
+[2026.02.14-04.31.55:371][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.31.55:372][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6129.752930, Update Interval: 351.578735
+[2026.02.14-04.32.05:693][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.32.05:693][372]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.32.05:693][372]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.32.05:693][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.32.05:695][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.32.05:702][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.32.05:729][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.32.05:729][372]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2026.02.14-04.32.05:729][372]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=4
+[2026.02.14-04.32.05:732][372]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=2
+[2026.02.14-04.32.05:742][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.02.14-04.32.05:823][373]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2026.02.14-04.32.13:092][184]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.32.13:105][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.32.13:132][184]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.32.13:133][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001498s)
+[2026.02.14-04.32.13:133][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001549s)
+[2026.02.14-04.32.13:159][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.02.14-04.32.13:162][184]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.32.13:164][184]LogPlayLevel: PIE: World Init took: (0.001988s)
+[2026.02.14-04.32.13:164][184]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2026.02.14-04.32.13:164][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.32.13:165][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.32.13:165][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.32.13:165][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.32.13:165][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.32.13:165][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.32.13:168][184]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.32.13:196][184]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.32.13:196][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.32.13:196][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.32.13:196][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.32.13:197][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2026.02.14-04.32.13:197][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=40
+[2026.02.14-04.32.13:200][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2026.02.14-04.32.13:200][184]LogInit: FAudioDevice initialized with ID 40.
+[2026.02.14-04.32.13:200][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2026.02.14-04.32.13:200][184]LogAudio: Display: Audio Device (ID: 40) registered with world 'Level1_Rework'.
+[2026.02.14-04.32.13:200][184]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2026.02.14-04.32.13:205][184]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.32.13:210][184]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.32.13
+[2026.02.14-04.32.13:210][184]LogWorld: Bringing up level for play took: 0.004602
+[2026.02.14-04.32.13:214][184]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2026.02.14-04.32.13:218][184]PIE: Server logged in
+[2026.02.14-04.32.13:221][184]PIE: Play in editor total start time 0.116 seconds.
+[2026.02.14-04.33.02:353][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.33.02:353][742]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.33.02:353][742]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.33.02:353][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.33.02:354][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.33.02:361][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.33.02:387][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.33.02:388][742]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2026.02.14-04.33.02:388][742]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=4
+[2026.02.14-04.33.02:390][742]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=2
+[2026.02.14-04.33.02:400][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.14-04.33.02:471][743]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2026.02.14-04.33.04:752][984]Cmd: TRANSACTION UNDO
+[2026.02.14-04.33.04:752][984]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.33.15:989][205]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.33.16:002][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.33.16:002][205]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.33.16:004][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001410s)
+[2026.02.14-04.33.16:004][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001448s)
+[2026.02.14-04.33.16:030][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.02.14-04.33.16:033][205]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.33.16:034][205]LogPlayLevel: PIE: World Init took: (0.001828s)
+[2026.02.14-04.33.16:035][205]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.33.16:035][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.33.16:035][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.33.16:035][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.33.16:035][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.33.16:035][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.33.16:038][205]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.33.16:066][205]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.33.16:067][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.33.16:067][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.33.16:067][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.33.16:067][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2026.02.14-04.33.16:067][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=41
+[2026.02.14-04.33.16:071][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2026.02.14-04.33.16:071][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2026.02.14-04.33.16:071][205]LogInit: FAudioDevice initialized with ID 41.
+[2026.02.14-04.33.16:071][205]LogAudio: Display: Audio Device (ID: 41) registered with world 'Level1_Rework'.
+[2026.02.14-04.33.16:071][205]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2026.02.14-04.33.16:075][205]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.33.16:080][205]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.33.16
+[2026.02.14-04.33.16:081][205]LogWorld: Bringing up level for play took: 0.004620
+[2026.02.14-04.33.16:084][205]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2026.02.14-04.33.16:089][205]PIE: Server logged in
+[2026.02.14-04.33.16:091][205]PIE: Play in editor total start time 0.09 seconds.
+[2026.02.14-04.33.30:642][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.33.30:642][933]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.33.30:643][933]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.33.30:643][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.33.30:645][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.33.30:651][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.33.30:677][933]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.33.30:677][933]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2026.02.14-04.33.30:677][933]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=4
+[2026.02.14-04.33.30:681][933]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=2
+[2026.02.14-04.33.30:686][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.33.30:689][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.02.14-04.33.30:760][934]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2026.02.14-04.34.25:001][736]Cmd: DUPLICATE
+[2026.02.14-04.34.25:001][736]Cmd: ACTOR DUPLICATE
+[2026.02.14-04.34.26:098][839]Cmd: TRANSACTION UNDO
+[2026.02.14-04.34.26:098][839]LogEditorTransaction: Undo Duplicate Elements
+[2026.02.14-04.34.27:479][945]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.34.27:493][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.34.27:533][945]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.34.27:534][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001448s)
+[2026.02.14-04.34.27:534][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001500s)
+[2026.02.14-04.34.27:562][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.14-04.34.27:566][945]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.34.27:568][945]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2026.02.14-04.34.27:568][945]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2026.02.14-04.34.27:568][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.34.27:568][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.34.27:569][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.34.27:569][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.34.27:569][945]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.34.27:569][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.34.27:569][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.34.27:569][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.34.27:569][945]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.34.27:569][945]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.34.27:569][945]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.34.27:572][945]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.34.27:600][945]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.34.27:601][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.34.27:601][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.34.27:601][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.34.27:601][945]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2026.02.14-04.34.27:601][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=42
+[2026.02.14-04.34.27:605][945]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2026.02.14-04.34.27:605][945]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2026.02.14-04.34.27:605][945]LogInit: FAudioDevice initialized with ID 42.
+[2026.02.14-04.34.27:605][945]LogAudio: Display: Audio Device (ID: 42) registered with world 'Level1_Rework'.
+[2026.02.14-04.34.27:605][945]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2026.02.14-04.34.27:609][945]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.34.27:614][945]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.34.27
+[2026.02.14-04.34.27:614][945]LogWorld: Bringing up level for play took: 0.004544
+[2026.02.14-04.34.27:618][945]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2026.02.14-04.34.27:622][945]PIE: Server logged in
+[2026.02.14-04.34.27:625][945]PIE: Play in editor total start time 0.132 seconds.
+[2026.02.14-04.36.34:603][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.36.34:603][143]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.36.34:603][143]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.36.34:603][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.36.34:605][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.36.34:611][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.36.34:639][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.36.34:639][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2026.02.14-04.36.34:639][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=4
+[2026.02.14-04.36.34:642][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=2
+[2026.02.14-04.36.34:652][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2026.02.14-04.36.34:746][144]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2026.02.14-04.36.48:227][644]Cmd: TRANSACTION UNDO
+[2026.02.14-04.36.48:227][644]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.37.15:376][654]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.37.15:390][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.37.15:390][654]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.37.15:391][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001485s)
+[2026.02.14-04.37.15:391][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001525s)
+[2026.02.14-04.37.15:421][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.02.14-04.37.15:424][654]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.37.15:426][654]LogPlayLevel: PIE: World Init took: (0.001970s)
+[2026.02.14-04.37.15:427][654]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.37.15:427][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.37.15:427][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.37.15:427][654]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.37.15:427][654]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.37.15:427][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.37.15:430][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.37.15:458][654]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.37.15:458][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.37.15:458][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.37.15:458][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.37.15:459][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2026.02.14-04.37.15:459][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=43
+[2026.02.14-04.37.15:463][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2026.02.14-04.37.15:463][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2026.02.14-04.37.15:463][654]LogInit: FAudioDevice initialized with ID 43.
+[2026.02.14-04.37.15:463][654]LogAudio: Display: Audio Device (ID: 43) registered with world 'Level1_Rework'.
+[2026.02.14-04.37.15:463][654]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2026.02.14-04.37.15:467][654]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.37.15:471][654]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.37.15
+[2026.02.14-04.37.15:472][654]LogWorld: Bringing up level for play took: 0.004605
+[2026.02.14-04.37.15:475][654]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2026.02.14-04.37.15:480][654]PIE: Server logged in
+[2026.02.14-04.37.15:482][654]PIE: Play in editor total start time 0.093 seconds.
+[2026.02.14-04.38.22:433][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.38.22:433][667]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.38.22:433][667]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.38.22:433][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.38.22:435][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.38.22:442][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.38.22:468][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.38.22:468][667]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2026.02.14-04.38.22:469][667]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=4
+[2026.02.14-04.38.22:471][667]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=2
+[2026.02.14-04.38.22:478][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.38.22:482][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.02.14-04.38.22:572][668]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2026.02.14-04.38.28:756][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6523.143555
+[2026.02.14-04.38.28:867][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.38.28:867][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6523.245117, Update Interval: 358.798798
+[2026.02.14-04.39.01:221][139]Cmd: TRANSACTION UNDO
+[2026.02.14-04.39.01:222][139]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.39.01:530][151]Cmd: TRANSACTION UNDO
+[2026.02.14-04.39.01:530][151]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.39.01:844][171]Cmd: TRANSACTION UNDO
+[2026.02.14-04.39.01:844][171]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.39.12:150][325]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.39.12:163][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.39.12:202][325]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.39.12:204][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001468s)
+[2026.02.14-04.39.12:204][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001520s)
+[2026.02.14-04.39.12:232][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.14-04.39.12:236][325]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.39.12:238][325]LogPlayLevel: PIE: World Init took: (0.001964s)
+[2026.02.14-04.39.12:239][325]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.39.12:239][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.39.12:239][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.39.12:239][325]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.39.12:239][325]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.39.12:239][325]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.39.12:242][325]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.39.12:270][325]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.39.12:270][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.39.12:270][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.39.12:270][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.39.12:271][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2026.02.14-04.39.12:271][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=44
+[2026.02.14-04.39.12:274][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2026.02.14-04.39.12:274][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2026.02.14-04.39.12:274][325]LogInit: FAudioDevice initialized with ID 44.
+[2026.02.14-04.39.12:274][325]LogAudio: Display: Audio Device (ID: 44) registered with world 'Level1_Rework'.
+[2026.02.14-04.39.12:274][325]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2026.02.14-04.39.12:278][325]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.39.12:283][325]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.39.12
+[2026.02.14-04.39.12:283][325]LogWorld: Bringing up level for play took: 0.004508
+[2026.02.14-04.39.12:287][325]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2026.02.14-04.39.12:292][325]PIE: Server logged in
+[2026.02.14-04.39.12:294][325]PIE: Play in editor total start time 0.132 seconds.
+[2026.02.14-04.39.19:682][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.39.19:682][195]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.39.19:683][195]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.39.19:683][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.39.19:684][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.39.19:691][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.39.19:718][195]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.39.19:718][195]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2026.02.14-04.39.19:718][195]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=4
+[2026.02.14-04.39.19:721][195]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=2
+[2026.02.14-04.39.19:725][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.39.19:728][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.02.14-04.39.19:822][196]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2026.02.14-04.40.39:153][885]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.40.39:167][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.40.39:168][885]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.40.39:169][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001633s)
+[2026.02.14-04.40.39:169][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001681s)
+[2026.02.14-04.40.39:200][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.02.14-04.40.39:202][885]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.40.39:204][885]LogPlayLevel: PIE: World Init took: (0.002156s)
+[2026.02.14-04.40.39:205][885]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.40.39:205][885]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.40.39:205][885]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.40.39:205][885]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.40.39:205][885]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.40.39:205][885]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.40.39:209][885]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.40.39:236][885]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.40.39:237][885]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.40.39:237][885]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.40.39:237][885]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.40.39:237][885]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2026.02.14-04.40.39:237][885]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=45
+[2026.02.14-04.40.39:241][885]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2026.02.14-04.40.39:241][885]LogInit: FAudioDevice initialized with ID 45.
+[2026.02.14-04.40.39:241][885]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2026.02.14-04.40.39:241][885]LogAudio: Display: Audio Device (ID: 45) registered with world 'Level1_Rework'.
+[2026.02.14-04.40.39:241][885]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2026.02.14-04.40.39:246][885]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.40.39:250][885]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.40.39
+[2026.02.14-04.40.39:251][885]LogWorld: Bringing up level for play took: 0.004713
+[2026.02.14-04.40.39:254][885]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2026.02.14-04.40.39:259][885]PIE: Server logged in
+[2026.02.14-04.40.39:262][885]PIE: Play in editor total start time 0.095 seconds.
+[2026.02.14-04.40.47:793][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.40.47:793][891]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.40.47:793][891]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.40.47:793][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.40.47:795][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.40.47:801][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.40.47:826][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.40.47:826][891]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2026.02.14-04.40.47:826][891]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=4
+[2026.02.14-04.40.47:829][891]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=2
+[2026.02.14-04.40.47:837][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.02.14-04.40.47:926][892]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2026.02.14-04.41.14:760][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.41.14:773][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.41.14:774][833]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.41.14:776][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001553s)
+[2026.02.14-04.41.14:776][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001592s)
+[2026.02.14-04.41.14:801][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.02.14-04.41.14:805][833]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.41.14:807][833]LogPlayLevel: PIE: World Init took: (0.001938s)
+[2026.02.14-04.41.14:808][833]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.41.14:808][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.41.14:808][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.41.14:808][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.41.14:808][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.41.14:808][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.41.14:811][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.41.14:839][833]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.41.14:839][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.41.14:839][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.41.14:839][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.41.14:840][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2026.02.14-04.41.14:840][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=46
+[2026.02.14-04.41.14:843][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2026.02.14-04.41.14:843][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2026.02.14-04.41.14:843][833]LogInit: FAudioDevice initialized with ID 46.
+[2026.02.14-04.41.14:843][833]LogAudio: Display: Audio Device (ID: 46) registered with world 'Level1_Rework'.
+[2026.02.14-04.41.14:844][833]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2026.02.14-04.41.14:848][833]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.41.14:853][833]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.41.14
+[2026.02.14-04.41.14:853][833]LogWorld: Bringing up level for play took: 0.004792
+[2026.02.14-04.41.14:856][833]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2026.02.14-04.41.14:862][833]PIE: Server logged in
+[2026.02.14-04.41.14:865][833]PIE: Play in editor total start time 0.091 seconds.
+[2026.02.14-04.45.17:288][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6931.712891
+[2026.02.14-04.45.17:422][811]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.45.17:422][811]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6931.837891, Update Interval: 338.308655
+[2026.02.14-04.46.12:792][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.46.12:792][433]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.46.12:793][433]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.46.12:793][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.46.12:795][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.46.12:801][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.46.12:825][433]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.46.12:825][433]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2026.02.14-04.46.12:826][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=4
+[2026.02.14-04.46.12:829][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=2
+[2026.02.14-04.46.12:836][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.46.12:839][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2026.02.14-04.46.12:934][434]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2026.02.14-04.46.22:472][412]LogInterchangeEngine: [Pending] Importing
+[2026.02.14-04.46.22:472][412]LogInterchangeEngine: Display: Interchange start importing source [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.46.22:552][415]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.02.14-04.46.22:574][416]LogTexture: Display: Building textures: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.T_bp_assets_rework (BGRA8, 448x1109 x1x1x1) (Required Memory Estimate: 18.057358 MB), EncodeSpeed: Fast
+[2026.02.14-04.46.22:602][416]LogInterchangeEngine: Display: Interchange import completed [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.46.22:602][416]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.02.14-04.46.22:602][416]LogInterchangeEngine: [Success] Import Done
+[2026.02.14-04.46.36:307][889]Cmd: TRANSACTION UNDO
+[2026.02.14-04.46.36:307][889]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.47.14:800][158]LogInterchangeEngine: [Pending] Importing
+[2026.02.14-04.47.14:800][158]LogInterchangeEngine: Display: Interchange start importing source [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.47.14:880][161]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.02.14-04.47.14:901][161]LogTexture: Display: Building textures: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.T_bp_assets_rework (BGRA8, 448x1109 x1x1x1) (Required Memory Estimate: 18.057358 MB), EncodeSpeed: Fast
+[2026.02.14-04.47.14:931][162]LogInterchangeEngine: Display: Interchange import completed [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.47.14:931][162]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.02.14-04.47.14:931][162]LogInterchangeEngine: [Success] Import Done
+[2026.02.14-04.47.48:659][974]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.47.48:672][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.47.48:672][974]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.47.48:673][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001429s)
+[2026.02.14-04.47.48:673][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001469s)
+[2026.02.14-04.47.48:706][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.02.14-04.47.48:712][974]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.47.48:713][974]LogPlayLevel: PIE: World Init took: (0.001974s)
+[2026.02.14-04.47.48:714][974]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.47.48:714][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.47.48:714][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.47.48:714][974]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.47.48:714][974]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.47.48:714][974]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.47.48:717][974]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.47.48:747][974]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.47.48:747][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.47.48:747][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.47.48:747][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.47.48:748][974]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2026.02.14-04.47.48:748][974]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=47
+[2026.02.14-04.47.48:751][974]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2026.02.14-04.47.48:751][974]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2026.02.14-04.47.48:751][974]LogInit: FAudioDevice initialized with ID 47.
+[2026.02.14-04.47.48:751][974]LogAudio: Display: Audio Device (ID: 47) registered with world 'Level1_Rework'.
+[2026.02.14-04.47.48:751][974]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2026.02.14-04.47.48:756][974]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.47.48:760][974]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.47.48
+[2026.02.14-04.47.48:760][974]LogWorld: Bringing up level for play took: 0.004474
+[2026.02.14-04.47.48:764][974]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2026.02.14-04.47.48:769][974]PIE: Server logged in
+[2026.02.14-04.47.48:771][974]PIE: Play in editor total start time 0.1 seconds.
+[2026.02.14-04.48.32:263][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.48.32:263][142]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.48.32:263][142]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.48.32:263][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.48.32:265][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.48.32:272][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.48.32:297][142]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.48.32:298][142]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2026.02.14-04.48.32:298][142]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=4
+[2026.02.14-04.48.32:301][142]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=2
+[2026.02.14-04.48.32:306][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.48.32:309][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.02.14-04.48.32:389][143]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2026.02.14-04.48.35:182][351]LogInterchangeEngine: [Pending] Importing
+[2026.02.14-04.48.35:182][351]LogInterchangeEngine: Display: Interchange start importing source [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.48.35:263][354]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.02.14-04.48.35:283][355]LogTexture: Display: Building textures: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.T_bp_assets_rework (BGRA8, 448x1109 x1x1x1) (Required Memory Estimate: 18.057358 MB), EncodeSpeed: Fast
+[2026.02.14-04.48.35:313][355]LogInterchangeEngine: Display: Interchange import completed [T:/40_asprite/Tilemap/T_elevator.png]
+[2026.02.14-04.48.35:313][355]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.02.14-04.48.35:313][355]LogInterchangeEngine: [Success] Import Done
+[2026.02.14-04.48.36:640][448]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.48.36:653][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.48.36:653][448]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.48.36:655][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001464s)
+[2026.02.14-04.48.36:655][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001503s)
+[2026.02.14-04.48.36:685][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.02.14-04.48.36:688][448]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.48.36:689][448]LogPlayLevel: PIE: World Init took: (0.001840s)
+[2026.02.14-04.48.36:690][448]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.48.36:690][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.48.36:690][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.48.36:690][448]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.48.36:690][448]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.48.36:690][448]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.48.36:693][448]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.48.36:723][448]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.48.36:723][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.48.36:723][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.48.36:723][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.48.36:723][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2026.02.14-04.48.36:724][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=48
+[2026.02.14-04.48.36:727][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2026.02.14-04.48.36:727][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2026.02.14-04.48.36:727][448]LogInit: FAudioDevice initialized with ID 48.
+[2026.02.14-04.48.36:727][448]LogAudio: Display: Audio Device (ID: 48) registered with world 'Level1_Rework'.
+[2026.02.14-04.48.36:727][448]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2026.02.14-04.48.36:731][448]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.48.36:736][448]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.48.36
+[2026.02.14-04.48.36:736][448]LogWorld: Bringing up level for play took: 0.004778
+[2026.02.14-04.48.36:740][448]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2026.02.14-04.48.36:745][448]PIE: Server logged in
+[2026.02.14-04.48.36:747][448]PIE: Play in editor total start time 0.094 seconds.
+[2026.02.14-04.49.32:963][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.49.32:963][167]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.49.32:964][167]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.49.32:964][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.49.32:965][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.49.32:972][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.49.33:002][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.49.33:002][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2026.02.14-04.49.33:002][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=4
+[2026.02.14-04.49.33:005][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=2
+[2026.02.14-04.49.33:010][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.49.33:013][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.14-04.49.33:104][168]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2026.02.14-04.50.01:083][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.02.14-04.50.01:100][949]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MAIN/Rocky/Level1_Rework_Auto3
+[2026.02.14-04.50.01:100][949]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Level1_Rework_Auto30C546DB7439BFB5A662108A9D0697F3E.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Autosaves/Game/MAIN/Rocky/Level1_Rework_Auto3.umap'
+[2026.02.14-04.50.01:102][949]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MAIN/Rocky/Level1_Rework' took 0.045
+[2026.02.14-04.50.01:102][949]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
+[2026.02.14-04.50.01:103][949]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework] ([1] browsable assets)...
+[2026.02.14-04.50.01:105][949]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.T_bp_assets_rework]
+[2026.02.14-04.50.01:105][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework]
+[2026.02.14-04.50.01:116][949]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework_Auto3
+[2026.02.14-04.50.01:116][949]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/T_bp_assets_rework_Auto38BC8D54A42D1372C8BD0559B0DB12807.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework_Auto3.uasset'
+[2026.02.14-04.50.01:118][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg] ([1] browsable assets)...
+[2026.02.14-04.50.01:118][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg]
+[2026.02.14-04.50.01:634][949]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg_Auto3
+[2026.02.14-04.50.01:634][949]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/TM_Level1_rework_bg_Auto391D6B75345857DC249FB9A95C116C0F8.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg_Auto3.uasset'
+[2026.02.14-04.50.01:635][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg] ([1] browsable assets)...
+[2026.02.14-04.50.01:635][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg]
+[2026.02.14-04.50.02:063][949]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg_Auto3
+[2026.02.14-04.50.02:063][949]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/TM_Level1_rework_fg_Auto3EDB97B544398E4824CBBC19EDF520939.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Autosaves/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg_Auto3.uasset'
+[2026.02.14-04.50.02:064][949]LogFileHelpers: Auto-saving content packages took 0.962
+[2026.02.14-04.50.17:610][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.50.17:624][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.50.17:652][607]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.50.17:653][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001449s)
+[2026.02.14-04.50.17:653][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001497s)
+[2026.02.14-04.50.17:679][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.02.14-04.50.17:681][607]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.50.17:683][607]LogPlayLevel: PIE: World Init took: (0.001811s)
+[2026.02.14-04.50.17:684][607]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.50.17:684][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.50.17:684][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.50.17:684][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.50.17:684][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.50.17:684][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.50.17:686][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.50.17:714][607]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.50.17:715][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.50.17:715][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.50.17:715][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.50.17:715][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2026.02.14-04.50.17:715][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=49
+[2026.02.14-04.50.17:719][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2026.02.14-04.50.17:719][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2026.02.14-04.50.17:719][607]LogInit: FAudioDevice initialized with ID 49.
+[2026.02.14-04.50.17:719][607]LogAudio: Display: Audio Device (ID: 49) registered with world 'Level1_Rework'.
+[2026.02.14-04.50.17:719][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2026.02.14-04.50.17:723][607]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.50.17:728][607]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.50.17
+[2026.02.14-04.50.17:728][607]LogWorld: Bringing up level for play took: 0.004527
+[2026.02.14-04.50.17:732][607]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.02.14-04.50.17:736][607]PIE: Server logged in
+[2026.02.14-04.50.17:739][607]PIE: Play in editor total start time 0.115 seconds.
+[2026.02.14-04.50.39:733][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.50.39:733][229]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.50.39:733][229]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.50.39:733][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.50.39:735][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.50.39:741][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.50.39:767][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.50.39:767][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2026.02.14-04.50.39:768][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=4
+[2026.02.14-04.50.39:771][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=2
+[2026.02.14-04.50.39:779][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.14-04.50.39:872][230]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.02.14-04.51.31:855][887]LogDerivedDataCache: C:/Users/rothh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.14-04.51.52:537][231]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7326.955566
+[2026.02.14-04.51.52:662][246]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-04.51.52:662][246]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7327.072266, Update Interval: 325.410309
+[2026.02.14-04.51.54:361][443]Cmd: TRANSACTION UNDO
+[2026.02.14-04.51.54:361][443]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.52.43:527][825]Cmd: TRANSACTION UNDO
+[2026.02.14-04.52.43:527][825]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.52.43:802][835]Cmd: TRANSACTION UNDO
+[2026.02.14-04.52.43:802][835]LogEditorTransaction: Undo Tile Painting
+[2026.02.14-04.52.58:977][496]Cmd: TRANSACTION UNDO
+[2026.02.14-04.52.58:977][496]LogEditorTransaction: Undo Tile Erasing
+[2026.02.14-04.53.08:595][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-04.53.08:609][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-04.53.08:609][545]LogPlayLevel: Creating play world package: /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.53.08:610][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2026.02.14-04.53.08:610][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN/Rocky/Level1_Rework.Level1_Rework to /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework (0.001517s)
+[2026.02.14-04.53.08:639][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.02.14-04.53.08:643][545]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Rework
+[2026.02.14-04.53.08:645][545]LogPlayLevel: PIE: World Init took: (0.001962s)
+[2026.02.14-04.53.08:646][545]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-04.53.08:646][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-04.53.08:646][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-04.53.08:646][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-04.53.08:646][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-04.53.08:646][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-04.53.08:649][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-04.53.08:677][545]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.02.14-04.53.08:677][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-04.53.08:677][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-04.53.08:677][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-04.53.08:677][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2026.02.14-04.53.08:677][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=50
+[2026.02.14-04.53.08:681][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2026.02.14-04.53.08:681][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2026.02.14-04.53.08:681][545]LogInit: FAudioDevice initialized with ID 50.
+[2026.02.14-04.53.08:681][545]LogAudio: Display: Audio Device (ID: 50) registered with world 'Level1_Rework'.
+[2026.02.14-04.53.08:681][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2026.02.14-04.53.08:686][545]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.14-04.53.08:690][545]LogWorld: Bringing World /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework.Level1_Rework up for play (max tick rate 0) at 2026.02.13-20.53.08
+[2026.02.14-04.53.08:691][545]LogWorld: Bringing up level for play took: 0.004854
+[2026.02.14-04.53.08:695][545]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.02.14-04.53.08:700][545]PIE: Server logged in
+[2026.02.14-04.53.08:702][545]PIE: Play in editor total start time 0.094 seconds.
+[2026.02.14-04.53.26:253][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.53.26:253][627]LogWorld: BeginTearingDown for /Game/MAIN/Rocky/UEDPIE_0_Level1_Rework
+[2026.02.14-04.53.26:253][627]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.26:253][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.26:255][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-04.53.26:261][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.26:288][627]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-04.53.26:288][627]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2026.02.14-04.53.26:288][627]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50, StreamState=4
+[2026.02.14-04.53.26:291][627]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50, StreamState=2
+[2026.02.14-04.53.26:297][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-04.53.26:301][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2026.02.14-04.53.26:392][628]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2026.02.14-04.53.29:547][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.02.14-04.53.30:767][952]LogSlate: Window 'Save Content' being destroyed
+[2026.02.14-04.53.30:794][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-04.53.30:828][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN/Rocky/Level1_Rework" FILE="T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Level1_Rework.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.14-04.53.30:898][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.02.14-04.53.30:913][952]LogSavePackage: Moving output files for package: /Game/MAIN/Rocky/Level1_Rework
+[2026.02.14-04.53.30:913][952]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/Level1_ReworkBE5F955E45755254210C6C924260DDB6.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Level1_Rework.umap'
+[2026.02.14-04.53.30:934][952]LogFileHelpers: Saving map 'Level1_Rework' took 0.106
+[2026.02.14-04.53.30:934][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg] ([1] browsable assets)...
+[2026.02.14-04.53.30:934][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg]
+[2026.02.14-04.53.30:934][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg" FILE="T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg.uasset" SILENT=true
+[2026.02.14-04.53.31:437][952]LogSavePackage: Moving output files for package: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg
+[2026.02.14-04.53.31:437][952]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/TM_Level1_rework_bg82B94CDC4786CBF68CB8F89216F3F447.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg.uasset'
+[2026.02.14-04.53.31:438][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg] ([1] browsable assets)...
+[2026.02.14-04.53.31:438][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg]
+[2026.02.14-04.53.31:438][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg" FILE="T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg.uasset" SILENT=true
+[2026.02.14-04.53.31:858][952]LogSavePackage: Moving output files for package: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg
+[2026.02.14-04.53.31:858][952]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/TM_Level1_rework_fgD9A322D049EA4C538460AC8CD1D0C5F1.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg.uasset'
+[2026.02.14-04.53.31:859][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework] ([1] browsable assets)...
+[2026.02.14-04.53.31:859][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework]
+[2026.02.14-04.53.31:859][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework" FILE="T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.uasset" SILENT=true
+[2026.02.14-04.53.31:871][952]LogSavePackage: Moving output files for package: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework
+[2026.02.14-04.53.31:871][952]LogSavePackage: Moving 'T:/41_GameJam/Topsecretgamejam/Gamejam/Saved/T_bp_assets_reworkFF5C06C1479E499A87B4CB92861C055C.tmp' to 'T:/41_GameJam/Topsecretgamejam/Gamejam/Content/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework.uasset'
+[2026.02.14-04.53.31:883][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.08 sec (total: 2.14 sec)
+[2026.02.14-04.53.31:982][952]LogStall: Shutdown...
+[2026.02.14-04.53.31:982][952]LogStall: Shutdown complete.
+[2026.02.14-04.53.32:072][952]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:072][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:137][952]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:137][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:214][952]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:215][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:301][952]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:301][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:346][952]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:346][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:434][952]LogSlate: Window 'Gamejam - Unreal Editor' being destroyed
+[2026.02.14-04.53.32:435][952]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.02.14-04.53.32:596][952]LogContentValidation: Display: Starting to validate 4 assets
+[2026.02.14-04.53.32:596][952]LogContentValidation: Enabled validators:
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.14-04.53.32:596][952]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.14-04.53.32:596][952]AssetCheck: /Game/MAIN/Rocky/Level1_Rework Validating asset
+[2026.02.14-04.53.32:596][952]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_bg Validating asset
+[2026.02.14-04.53.32:596][952]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/TM_Level1_rework_fg Validating asset
+[2026.02.14-04.53.32:596][952]AssetCheck: /Game/MAIN/Rocky/Sprites/Tilemap/T_bp_assets_rework Validating asset
+[2026.02.14-04.53.32:646][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.02.14-04.53.32:678][952]Cmd: QUIT_EDITOR
+[2026.02.14-04.53.32:679][953]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.02.14-04.53.32:690][953]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.02.14-04.53.32:691][953]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.02.14-04.53.32:691][953]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.02.14-04.53.32:691][953]LogWorld: UWorld::CleanupWorld for Level1_Rework, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:691][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:712][953]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.02.14-04.53.32:712][953]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.02.14-04.53.32:712][953]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.02.14-04.53.32:720][953]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-04.53.32:720][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-04.53.32:724][953]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.02.14-04.53.32:724][953]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.02.14-04.53.32:728][953]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.02.14-04.53.33:269][953]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.02.14-04.53.33:269][953]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.02.14-04.53.33:269][953]LogAudio: Display: Audio Device unregistered from world 'Level1_Rework'.
+[2026.02.14-04.53.33:269][953]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.02.14-04.53.33:269][953]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.02.14-04.53.33:272][953]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.02.14-04.53.33:286][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.02.14-04.53.33:286][953]LogAudio: Display: Audio Device Manager Shutdown
+[2026.02.14-04.53.33:290][953]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.02.14-04.53.33:301][953]LogExit: Preparing to exit.
+[2026.02.14-04.53.33:358][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.02.14-04.53.33:365][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:365][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:365][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:365][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.33:366][953]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.02.14-04.53.34:259][953]LogEditorDataStorage: Deinitializing
+[2026.02.14-04.53.34:359][953]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.02.14-04.53.34:379][953]LogExit: Editor shut down
+[2026.02.14-04.53.34:385][953]LogExit: Transaction tracking system shut down
+[2026.02.14-04.53.34:562][953]LogExit: Object subsystem successfully closed.
+[2026.02.14-04.53.34:664][953]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.02.14-04.53.34:860][953]LogMemoryProfiler: Shutdown
+[2026.02.14-04.53.34:860][953]LogNetworkingProfiler: Shutdown
+[2026.02.14-04.53.34:860][953]LoadingProfiler: Shutdown
+[2026.02.14-04.53.34:860][953]LogTimingProfiler: Shutdown
+[2026.02.14-04.53.34:860][953]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.02.14-04.53.34:860][953]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.02.14-04.53.35:210][953]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.02.14-04.53.35:218][953]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.02.14-04.53.35:218][953]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B944963C6-4624-5A2C-FB8E-738DD58C5ECC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=0621980046c8f832bb80e2b9efbe8549%7C148b9788c6c946a2b2e6f6003de04e58%7C9463adca-33f0-4a64-b709-73ee58f52364&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.02.14-04.53.35:763][953]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.02.14-04.53.35:763][953]LogNFORDenoise: NFORDenoise function shutting down
+[2026.02.14-04.53.35:763][953]RenderDocPlugin: plugin has been unloaded.
+[2026.02.14-04.53.35:763][953]LogXGEController: Cleaning working directory: C:/Users/rothh/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.02.14-04.53.35:766][953]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.02.14-04.53.35:766][953]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.02.14-04.53.35:766][953]LogPakFile: Destroying PakPlatformFile
+[2026.02.14-04.53.36:146][953]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.02.14-04.53.36:210][953]LogExit: Exiting.
+[2026.02.14-04.53.36:235][953]Log file closed, 02/13/26 20:53:36
